@@ -1,6 +1,6 @@
 module Savior
   class PersonDie
-    def initialize(year,time)
+    def initialize(year,time=nil)
 
     end
 

@@ -3,6 +3,7 @@
 /_yardoc/
 /doc/
 /spec/reports/
+/pkg/
 /tmp/
 
 # rspec failure tracking
