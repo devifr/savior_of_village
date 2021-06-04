@@ -31,7 +31,7 @@ if total_died_year_person_b.to_i < 0
   puts "-1"
   exit
 end
-person_b_output = "Person A born on Year = #{p2_age_of_death} – #{p2_year_death} = #{person_b.year_coming}, number of people killed on year #{person_b.year_coming} is #{total_died_year_person_b}."
+person_b_output = "Person B born on Year = #{p2_age_of_death} – #{p2_year_death} = #{person_b.year_coming}, number of people killed on year #{person_b.year_coming} is #{total_died_year_person_b}."
 print person_b_output.gsub("\n","")
 puts ""
 average_total = Savior::Average.count(total_died_year_person_a, total_died_year_person_b)
